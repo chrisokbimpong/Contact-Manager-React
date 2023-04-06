@@ -37,3 +37,25 @@
   opacity: 1;
   right: 0;
 }
+
+.tdname {
+  font-style: normal;
+  text-align: center;
+}
+
+.tcontact {
+  table-layout: fixed;
+  text-align: left;
+}
+
+.trashtd {
+  text-align: right;
+}
+
+.nametd {
+  text-align: center;
+}
+
+.emailtd {
+  text-align: center;
+}
