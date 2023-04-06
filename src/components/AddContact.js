@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../css/AddContact.css";
 
 class AddContact extends React.Component {
   render() {
@@ -26,7 +27,9 @@ class AddContact extends React.Component {
             />
           </div>
           <br />
-          <button className="btn btn-primary">Add Contact</button>
+          <button className=" addbtn">
+            <span>Add Contact</span>
+          </button>
         </form>
       </div>
     );
