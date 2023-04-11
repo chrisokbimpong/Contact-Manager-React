@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import AddContact from "./components/AddContact";
 import ContactList from "./components/ContactList";
 import { useState } from "react";
+import { uuid } from "uuid";
 
 function App() {
   const LOCAL_STORAGE_KEY = "contacts";
